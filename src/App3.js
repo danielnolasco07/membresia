@@ -152,6 +152,7 @@ class App extends React.Component {
   render() {
     // const classes = useStyles();
     const {classes} = this.props;
+    console.log('prueba');
 
     return (
       <div className={classes.root}>
